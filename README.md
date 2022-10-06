@@ -1,0 +1,1 @@
+This project will consist of the creation of a simple landing page using HTML and CSS.
