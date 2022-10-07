@@ -153,3 +153,25 @@ body {
     margin-top: 5px;
     font-weight: bolder;
 }
+
+.advert {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+}
+
+.boxed {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+}
