@@ -42,6 +42,7 @@ body {
     color: white;
     gap: 100px;
     padding-bottom: 50px;
+    flex: 1;
 }
 
 .intro-text {
@@ -76,4 +77,47 @@ body {
 .placeholder {
     height: 200px;
     width: auto;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    flex: 1;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+}
+
+.caption {
+    font-size: 18px;
+    color: gray;
+    margin-top: 5px;
 }
